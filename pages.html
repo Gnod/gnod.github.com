@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Pages 
+title: Pages
 header: Pages
-group: navigation
+group: navigation_pages
 ---
 {% include JB/setup %}
 
 <h2>All Pages</h2>
 <ul>
 {% assign pages_list = site.pages %}
+{% assign layout = 'page' %}
 {% include JB/pages_list %}
 </ul>
