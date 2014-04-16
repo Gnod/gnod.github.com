@@ -31,17 +31,15 @@
         <div class="container">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
-		<!--
-		<li><a href="/pages.html">Pages</a></li>
-		<li><a href="/categories.html">Categories</a></li>
-		<li><a href="/tags.html">Tags</a></li>
-		<li><a href="/about.html">About</a></li>
-		-->
+
 	    {% assign pages_list = site.pages %}
-            {% assign group = 'navigation_pages' %}
+            {% assign group = 'navigation_home' %}
             {% include JB/pages_list %}
       {% assign pages_list = site.pages %}
             {% assign group = 'navigation_categories' %}
+            {% include JB/pages_list %}
+      {% assign pages_list = site.pages %}
+            {% assign group = 'navigation_archive' %}
             {% include JB/pages_list %}
       {% assign pages_list = site.pages %}
             {% assign group = 'navigation_tags' %}
@@ -49,6 +47,8 @@
       {% assign pages_list = site.pages %}
             {% assign group = 'navigation_about' %}
             {% include JB/pages_list %}
+
+
 
 	 </ul>
         </div>

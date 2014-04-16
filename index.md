@@ -1,12 +1,11 @@
 ---
 layout: page
-title: C & D
-tagline:
+title: 主页
+header: C&D
+group: navigation_home
+
 ---
 {% include JB/setup %}
-
-
-
 
 <ul class="posts">
   {% for post in site.posts %}
