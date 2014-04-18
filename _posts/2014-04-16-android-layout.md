@@ -43,9 +43,9 @@ tags: [Android,layout]
 
 ### <merge />
 系统layout过程中，会在xml布局外围添加一层`FrameLayout`，`<merge />`标签能够避免双层`FrameLayout`。如上面布局文件其Tree View结构为:
-
+{% highlight java %}
     FrameLayout->FrameLayout->LinearLayout(include tag 内部layout)
-
+{% endhighlight %}
 对于：
 
 
