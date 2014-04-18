@@ -34,7 +34,9 @@ tags: [Android,layout]
     </FrameLayout>
 
 
+
 重点在于，
+
 - `<include />`标签中可以指定与复用布局xml根layout相同的标签属性，如`layout_width`、`layout_height`等。
 - 布局时，如果`<include />`标签中定义的属性将覆盖引入布局中定义属性。
 - `include_xxx`相关属性在`<include />`标签中要求同时指定了`layout_width`与`layout_height`才覆盖引入布局中指定属性，否则将以布局内部属性为标准。
