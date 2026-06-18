@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeReel Privacy Policy | Gnod Studio</title>
+    <meta name="description" content="HomeReel Privacy Policy." />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Inter', 'Noto Sans SC', sans-serif;
+        background-color: #000000;
+        color: #a3a3a3;
+        overflow-x: hidden;
+      }
+      h1, h2, h3, h4, h5, h6 { font-family: 'Cinzel', serif; }
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #000000; }
+      ::-webkit-scrollbar-thumb { background: #222; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #C9A227; }
+      .text-gold { color: #C9A227; }
+      .bg-gold { background-color: #C9A227; }
+      .border-gold { border-color: #C9A227; }
+      .legal h1, .legal h2, .legal h3 {
+        font-family: 'Inter', 'Noto Sans SC', sans-serif;
+      }
+      .legal h1 {
+        color: #ffffff;
+        font-size: clamp(2.25rem, 5vw, 4.5rem);
+        font-weight: 700;
+        line-height: 1.05;
+        letter-spacing: -0.02em;
+      }
+      .legal h2 {
+        color: #ffffff;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-top: 2.75rem;
+        margin-bottom: 1rem;
+      }
+      .legal p, .legal li {
+        color: #a3a3a3;
+        font-size: 0.95rem;
+        line-height: 1.9;
+      }
+      .legal ul {
+        list-style: disc;
+        padding-left: 1.25rem;
+      }
+      .legal a {
+        color: #C9A227;
+      }
+      .fade-in-section {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        will-change: opacity, visibility;
+      }
+      .fade-in-section.is-visible {
+        opacity: 1;
+        transform: none;
+      }
+    </style>
+  </head>
+  <body class="selection:bg-[#C9A227] selection:text-black">
+    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-500 py-6 border-b border-transparent">
+      <div class="container mx-auto px-6 md:px-12 flex justify-between items-center">
+        <a href="/" class="text-xl font-bold tracking-[0.2em] text-gold uppercase">
+          Gnod<span class="text-white"> Studio</span>
+        </a>
+        <div class="hidden md:flex gap-10 items-center text-xs tracking-[0.2em] font-medium text-gray-500 uppercase">
+          <a href="/homereel/" class="hover:text-gold transition-colors duration-300">HomeReel</a>
+          <a href="/homereel/open-source/" class="hover:text-gold transition-colors duration-300">Open Source</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="relative min-h-screen bg-black">
+      <div class="absolute inset-0 opacity-10" style="background-image: url('https://www.transparenttextures.com/patterns/stardust.png');"></div>
+      <div class="absolute top-20 right-10 w-[420px] h-[420px] bg-gold rounded-full blur-[170px] opacity-[0.04] pointer-events-none"></div>
+
+      <article class="legal relative z-10 container mx-auto px-6 md:px-12 pt-36 pb-28 max-w-4xl fade-in-section">
+        <a href="/homereel/" class="inline-flex items-center gap-2 text-gray-500 hover:text-gold transition-colors text-xs tracking-[0.2em] uppercase mb-10">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i>
+          <span>Back to HomeReel</span>
+        </a>
+
+        <span class="block text-gold text-xs tracking-[0.3em] uppercase mb-5">HomeReel</span>
+        <h1>Privacy Policy</h1>
+        <p class="mt-6 text-gray-500">Effective date: June 18, 2026</p>
+
+        <p class="mt-10">HomeReel is a local media library and player for Apple Vision Pro. It is built to work with videos you choose from local storage, local network shares, or self-hosted media servers.</p>
+
+        <h2>Summary</h2>
+        <p>HomeReel does not create an account for you, does not include advertising SDKs, and does not include analytics SDKs. Gnod Studio does not collect, sell, or share personal data from HomeReel.</p>
+
+        <h2>Data Stored On Your Device</h2>
+        <p>HomeReel may store the following data locally on your device:</p>
+        <ul>
+          <li>Media source configuration, such as display name, host, share name, and start path.</li>
+          <li>Playback progress, watched status, queue state, and app settings.</li>
+          <li>Artwork cache files used to make the library faster.</li>
+          <li>Passwords or credentials for sources you add, stored in the system Keychain when needed.</li>
+        </ul>
+        <p class="mt-4">This data is used only to make the app work and remains on your device unless you choose to remove the app, clear data, or change system backups.</p>
+
+        <h2>Local Network Access</h2>
+        <p>HomeReel may request local network access so it can connect to SMB/NAS sources or other local media servers that you configure. Local network access is used only to reach the sources you enter or select.</p>
+
+        <h2>Optional Third-Party Services</h2>
+        <p>If you configure TMDB metadata, HomeReel may send movie or file-title search queries to TMDB to retrieve posters, artwork, and descriptions. TMDB is a third-party service and its processing is governed by its own terms and privacy policy.</p>
+        <p class="mt-4">If you configure Jellyfin or another self-hosted source, HomeReel communicates with the server address you provide. Credentials and media requests are sent to that server so the app can browse and play your library.</p>
+
+        <h2>Data We Do Not Collect</h2>
+        <p>Gnod Studio does not collect:</p>
+        <ul>
+          <li>Your video files.</li>
+          <li>Your NAS or local server credentials.</li>
+          <li>Your playback history.</li>
+          <li>Your media library file paths.</li>
+          <li>Analytics, advertising identifiers, or usage tracking data.</li>
+        </ul>
+
+        <h2>Children</h2>
+        <p>HomeReel is not directed to children and does not knowingly collect personal information from children.</p>
+
+        <h2>Contact</h2>
+        <p>For privacy questions, contact <a href="mailto:support@gnodstudio.com">support@gnodstudio.com</a>.</p>
+
+        <h2>Changes</h2>
+        <p>If this policy changes, the updated version will be posted at <a href="https://gnodstudio.com/homereel/privacy">https://gnodstudio.com/homereel/privacy</a>.</p>
+
+        <hr class="my-16 border-[#222]">
+
+        <h1>HomeReel 隐私政策</h1>
+        <p class="mt-6 text-gray-500">生效日期：2026 年 6 月 18 日</p>
+
+        <p class="mt-10">HomeReel 是为 Apple Vision Pro 打造的本地媒体库与播放器，用于播放你选择的本地文件、局域网共享或自托管媒体服务器中的视频。</p>
+
+        <h2>摘要</h2>
+        <p>HomeReel 不创建账号，不包含广告 SDK，不包含分析 SDK。Gnod Studio 不通过 HomeReel 收集、出售或共享个人数据。</p>
+
+        <h2>保存在设备上的数据</h2>
+        <p>HomeReel 可能在你的设备本地保存以下数据：</p>
+        <ul>
+          <li>媒体来源配置，例如显示名称、主机、共享名和起始路径。</li>
+          <li>播放进度、已看状态、播放队列和应用设置。</li>
+          <li>用于加速媒体库显示的封面缓存文件。</li>
+          <li>你添加来源时需要保存的密码或凭据，这些内容会存储在系统 Keychain 中。</li>
+        </ul>
+        <p class="mt-4">这些数据仅用于应用功能，并保留在你的设备上，除非你主动删除应用、清理数据或通过系统备份迁移。</p>
+
+        <h2>局域网访问</h2>
+        <p>HomeReel 可能请求局域网访问权限，用于连接你配置的 SMB/NAS 来源或其他本地媒体服务器。局域网访问仅用于访问你输入或选择的媒体来源。</p>
+
+        <h2>可选第三方服务</h2>
+        <p>如果你配置了 TMDB 元数据，HomeReel 可能会向 TMDB 发送电影名或文件标题搜索请求，用于获取海报、背景图和简介。TMDB 是第三方服务，其数据处理受其自身条款和隐私政策约束。</p>
+        <p class="mt-4">如果你配置了 Jellyfin 或其他自托管来源，HomeReel 会与你提供的服务器地址通信。凭据和媒体请求会发送到该服务器，以便浏览和播放你的媒体库。</p>
+
+        <h2>我们不收集的数据</h2>
+        <p>Gnod Studio 不收集：</p>
+        <ul>
+          <li>你的视频文件。</li>
+          <li>你的 NAS 或本地服务器凭据。</li>
+          <li>你的播放历史。</li>
+          <li>你的媒体库文件路径。</li>
+          <li>分析数据、广告标识符或使用跟踪数据。</li>
+        </ul>
+
+        <h2>儿童</h2>
+        <p>HomeReel 并非面向儿童设计，也不会有意收集儿童的个人信息。</p>
+
+        <h2>联系方式</h2>
+        <p>如有隐私问题，请联系 <a href="mailto:support@gnodstudio.com">support@gnodstudio.com</a>。</p>
+
+        <h2>政策更新</h2>
+        <p>如本政策发生变化，更新版本会发布在 <a href="https://gnodstudio.com/homereel/privacy">https://gnodstudio.com/homereel/privacy</a>。</p>
+      </article>
+    </main>
+
+    <footer class="py-16 border-t border-[#111] bg-black">
+      <div class="container mx-auto px-6 text-center">
+        <h4 class="font-serif text-gray-500 tracking-[0.2em] uppercase text-xs mb-4">Gnod Studio</h4>
+        <p class="text-gray-800 text-[10px] tracking-wide">&copy; 2026. ALL RIGHTS RESERVED.</p>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
