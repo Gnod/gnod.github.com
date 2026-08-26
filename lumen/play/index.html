@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>LUMEN</title>
+<meta name="description" content="A minimal line-puzzle game. The world is one continuous line, and you are a segment of light on it. 极简线条解谜游戏。">
+<meta name="theme-color" content="#05060a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:title" content="LUMEN">
+<meta property="og:description" content="A minimal line-puzzle game. The world is one continuous line, and you are a segment of light on it. 极简线条解谜游戏。">
+<meta property="og:type" content="website">
+<!-- 图标用同一套轨道、光路与光点语言，但保留独立的应用轮廓 -->
+<link rel="icon" type="image/png" href="./assets/icon-web.png">
+<link rel="apple-touch-icon" href="./assets/icon-web.png">
+<style>
+  :root { color-scheme: dark; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body {
+    width:100%; height:100%; overflow:hidden; background:#05060a;
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:transparent;
+    touch-action:none; overscroll-behavior:none;
+  }
+  #stage { position:fixed; inset:0; display:block; }
+  #hint {
+    position:fixed; left:50%; bottom:max(22px, env(safe-area-inset-bottom)); transform:translateX(-50%);
+    color:#4a5165; font-size:12px; letter-spacing:.18em;
+    pointer-events:none; transition:opacity .8s ease; opacity:1;
+  }
+  #hint.gone { opacity:0; }
+  #hint.touch { width:64px; height:18px; }
+  #hint.touch::before {
+    content:''; position:absolute; top:5px; left:5px; width:8px; height:8px;
+    border-radius:50%; background:#6fe3ff; box-shadow:0 0 8px rgba(111,227,255,.6);
+    animation:lumen-swipe 1.8s ease-in-out infinite;
+  }
+  #hint.touch::after {
+    content:'‹      ›'; position:absolute; inset:0; color:#4a5165;
+    text-align:center; letter-spacing:.35em;
+  }
+  @keyframes lumen-swipe {
+    0%,18% { transform:translateX(0); opacity:.3; }
+    55%,72% { transform:translateX(46px); opacity:.9; }
+    100% { transform:translateX(46px); opacity:0; }
+  }
+  @media (prefers-reduced-motion: reduce) { #hint { transition:none; } }
+  @media (prefers-reduced-motion: reduce) { #hint.touch::before { animation:none; transform:translateX(23px); } }
+</style>
+<meta name="lumen-build" content="production">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <div id="hint">↑ ↓ ← →</div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

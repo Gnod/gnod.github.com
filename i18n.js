@@ -39,6 +39,15 @@
     scroll: { zh: "滚动", en: "Scroll", ja: "スクロール", ko: "스크롤" },
     latestProjects: { zh: "近期项目", en: "Latest Projects", ja: "最近のプロジェクト", ko: "최근 프로젝트" },
     selectedWorks: { zh: "精选作品", en: "Selected Works", ja: "主な作品", ko: "선정 작품" },
+    lumenEyebrow: { zh: "极简线条解谜", en: "Minimal line-puzzle game", ja: "ミニマルなラインパズル", ko: "미니멀 라인 퍼즐" },
+    lumenSummary: {
+      zh: "沿着一条光，解开一个世界。在 6 个世界、129 个房间里，等待、转向，找到前行的节奏。",
+      en: "Follow a line of light through six worlds and 129 rooms. Observe, wait and find your rhythm.",
+      ja: "一筋の光とともに、6つの世界と129の部屋へ。観察し、待ち、自分のリズムで進もう。",
+      ko: "한 줄기 빛을 따라 6개 세계와 129개 방을 탐험하세요. 관찰하고 기다리며 나만의 리듬을 찾아보세요."
+    },
+    exploreLumen: { zh: "探索 LUMEN →", en: "Explore LUMEN →", ja: "LUMEN を見る →", ko: "LUMEN 살펴보기 →" },
+    playLumen: { zh: "网页版试玩 →", en: "Play in browser →", ja: "ブラウザでプレイ →", ko: "브라우저에서 플레이 →" },
     homeReelEyebrow: { zh: "Apple Vision Pro 媒体库", en: "Apple Vision Pro media library", ja: "Apple Vision Pro メディアライブラリ", ko: "Apple Vision Pro 미디어 라이브러리" },
     homeReelSummary: {
       zh: "一款为 Apple Vision Pro 打造的本地优先视频库与播放器。浏览本地文件夹、SMB/NAS 共享和自托管媒体源。",
