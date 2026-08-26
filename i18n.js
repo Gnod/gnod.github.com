@@ -41,10 +41,10 @@
     selectedWorks: { zh: "精选作品", en: "Selected Works", ja: "主な作品", ko: "선정 작품" },
     lumenEyebrow: { zh: "极简线条解谜", en: "Minimal line-puzzle game", ja: "ミニマルなラインパズル", ko: "미니멀 라인 퍼즐" },
     lumenSummary: {
-      zh: "沿着一条光，解开一个世界。在 6 个世界、129 个房间里，等待、转向，找到前行的节奏。",
-      en: "Follow a line of light through six worlds and 129 rooms. Observe, wait and find your rhythm.",
-      ja: "一筋の光とともに、6つの世界と129の部屋へ。観察し、待ち、自分のリズムで進もう。",
-      ko: "한 줄기 빛을 따라 6개 세계와 129개 방을 탐험하세요. 관찰하고 기다리며 나만의 리듬을 찾아보세요."
+      zh: "沿着一条光，解开一个世界。在 7 个世界、143 个房间里，等待、转向，找到前行的节奏。",
+      en: "Follow a line of light through 7 worlds and 143 rooms. Observe, wait and find your rhythm.",
+      ja: "一筋の光とともに、7つの世界と143の部屋へ。観察し、待ち、自分のリズムで進もう。",
+      ko: "한 줄기 빛을 따라 7개 세계와 143개 방을 탐험하세요. 관찰하고 기다리며 나만의 리듬을 찾아보세요."
     },
     exploreLumen: { zh: "探索 LUMEN →", en: "Explore LUMEN →", ja: "LUMEN を見る →", ko: "LUMEN 살펴보기 →" },
     playLumen: { zh: "网页版试玩 →", en: "Play in browser →", ja: "ブラウザでプレイ →", ko: "브라우저에서 플레이 →" },

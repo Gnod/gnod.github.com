@@ -40,6 +40,13 @@ for (const route of ['index.html', 'privacy/index.html', 'support/index.html']) 
   assert(!/<link[^>]+rel="(?:stylesheet|preload|preconnect)"[^>]+href="https?:/.test(html), `${route}: third-party asset`);
 }
 const play = await readFile(resolve(product, 'play/index.html'), 'utf8');
+const { WORLDS, ROOMS } = await import('../lumen/play/src/content/rooms.js');
+const orbs = ROOMS.reduce((n, room) => n + (room.ascii.match(/o/g) || []).length, 0);
+const landing = await readFile(resolve(product, 'index.html'), 'utf8');
+const support = await readFile(resolve(product, 'support/index.html'), 'utf8');
+assert(landing.includes(`${WORLDS.length} 个世界，${ROOMS.length} 个房间，${orbs} 颗可选光点`), 'Landing counts must match shipped levels');
+assert(landing.includes(`${WORLDS.length} worlds and ${ROOMS.length} rooms`), 'English landing counts');
+assert(support.includes(`${orbs} 颗光点`) && support.includes(`${orbs} collectible lights`), 'Support collectible count');
 assert.match(play, /name="lumen-build" content="production"/);
 assert(!files.some(file => /\/play\/(?:src\/editor|tests|tools|node_modules|src-tauri)(\/|$)/.test(file)));
 const manifest = JSON.parse(await readFile(resolve(product, 'play/assets/music/manifest.json'), 'utf8'));
