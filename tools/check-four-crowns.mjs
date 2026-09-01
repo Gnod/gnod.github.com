@@ -29,7 +29,7 @@ for (const relative of pages) {
   }
 
   const html = readFileSync(path, "utf8");
-  for (const marker of ["<title>", 'name="description"', 'rel="canonical"', 'property="og:title"', 'property="og:image"', 'name="twitter:title"', 'name="twitter:image"', 'id="english"']) {
+  for (const marker of ["<html lang=\"en\">", "<title>", 'name="description"', 'rel="canonical"', 'property="og:title"', 'property="og:image"', 'name="twitter:title"', 'name="twitter:image"', 'id="chinese"', 'id="japanese"', 'lang="ja"']) {
     if (!html.includes(marker)) fail(`${relative} missing ${marker}`);
   }
 
@@ -46,15 +46,15 @@ for (const relative of pages) {
 }
 
 const landing = readFileSync(join(root, "index.html"), "utf8");
-for (const fact of ["24 名顾问", "13 道敕令", "十二场危机", "没有广告与内购", "Coming to the App Store"]) {
+for (const fact of ["24 advisors", "13 edicts", "Twelve crises", "No ads or purchases", "Coming to the App Store", "24 名顾问", "24人の顧問"]) {
   if (!landing.toLowerCase().includes(fact.toLowerCase())) fail(`landing page missing product fact: ${fact}`);
 }
 
 const privacy = readFileSync(join(root, "privacy/index.html"), "utf8");
-if (!privacy.includes("不提供网页版游戏") || !privacy.includes("does not host a browser-playable game")) fail("privacy page must state the Web-game publication boundary in both languages");
+if (!privacy.includes("不提供网页版游戏") || !privacy.includes("does not host a browser-playable game") || !privacy.includes("ブラウザーで遊べるゲーム")) fail("privacy page must state the Web-game publication boundary in all three languages");
 
 const support = readFileSync(join(root, "support/index.html"), "utf8");
-for (const marker of ["gnodstudio@gmail.com", "Pixel Plebes", "No gambling"]) {
+for (const marker of ["gnodstudio@gmail.com", "Pixel Plebes", "No gambling", "ギャンブル要素について"]) {
   if (!support.includes(marker)) fail(`support page missing ${marker}`);
 }
 
