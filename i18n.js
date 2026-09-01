@@ -39,6 +39,15 @@
     scroll: { zh: "滚动", en: "Scroll", ja: "スクロール", ko: "스크롤" },
     latestProjects: { zh: "近期项目", en: "Latest Projects", ja: "最近のプロジェクト", ko: "최근 프로젝트" },
     selectedWorks: { zh: "精选作品", en: "Selected Works", ja: "主な作品", ko: "선정 작품" },
+    fourCrownsEyebrow: { zh: "扑克王国构筑 Roguelike", en: "Poker kingdom roguelike", ja: "ポーカー王国ローグライク", ko: "포커 왕국 로그라이크" },
+    fourCrownsSummary: {
+      zh: "用扑克牌型治理王国。守住军队、金库、民心与粮仓，在十二场危机中建立你的宫廷。",
+      en: "Rule a kingdom with poker hands. Defend four pillars through twelve crises and build a court that reshapes every campaign.",
+      ja: "ポーカーの役で王国を統治。四つの柱を守り、十二の危機を越えながら自分だけの宮廷を築こう。",
+      ko: "포커 핸드로 왕국을 다스리세요. 네 개의 기둥을 지키고 열두 번의 위기를 넘으며 나만의 궁정을 만드세요."
+    },
+    exploreFourCrowns: { zh: "查看游戏介绍", en: "Explore Four Crowns", ja: "Four Crowns を見る", ko: "Four Crowns 살펴보기" },
+    fourCrownsAvailability: { zh: "App Store 准备中", en: "Coming to the App Store", ja: "App Store に近日登場", ko: "App Store 출시 예정" },
     lumenEyebrow: { zh: "极简线条解谜", en: "Minimal line-puzzle game", ja: "ミニマルなラインパズル", ko: "미니멀 라인 퍼즐" },
     lumenSummary: {
       zh: "沿着一条光，解开一个世界。在 7 个世界、143 个房间里，等待、转向，找到前行的节奏。",

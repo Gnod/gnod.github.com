@@ -58,6 +58,19 @@ for (const marker of ["gnodstudio@gmail.com", "Pixel Plebes", "No gambling", "ã‚
   if (!support.includes(marker)) fail(`support page missing ${marker}`);
 }
 
+const homepage = readFileSync(resolve("index.html"), "utf8");
+for (const marker of ['href="/four-crowns/"', 'src="/four-crowns/assets/icon.png"', 'data-i18n="fourCrownsSummary"', 'data-i18n="exploreFourCrowns"']) {
+  if (!homepage.includes(marker)) fail(`homepage missing Four Crowns entry marker: ${marker}`);
+}
+if (/\/four-crowns\/(?:play|game|js|build|dist)\/?|\/four-crowns\/[^"']+\.(?:wasm|pck|js)/i.test(homepage)) {
+  fail("homepage must link only to the Four Crowns product page, never a Web-game runtime");
+}
+
+const i18n = readFileSync(resolve("i18n.js"), "utf8");
+for (const key of ["fourCrownsEyebrow", "fourCrownsSummary", "exploreFourCrowns", "fourCrownsAvailability"]) {
+  if (!i18n.includes(`${key}:`)) fail(`homepage translations missing ${key}`);
+}
+
 for (const forbiddenDirectory of ["play", "game", "build", "dist", "js"]) {
   if (existsSync(join(root, forbiddenDirectory))) fail(`forbidden Web-game directory exists: ${forbiddenDirectory}`);
 }
