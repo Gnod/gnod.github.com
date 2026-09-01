@@ -459,6 +459,11 @@
       const value = valueFor(element.dataset.i18nHtml, nextLang);
       if (value) element.innerHTML = value;
     });
+    document.querySelectorAll("[data-lang-path]").forEach((link) => {
+      const url = new URL(link.dataset.langPath, window.location.origin);
+      url.searchParams.set("lang", nextLang);
+      link.setAttribute("href", `${url.pathname}${url.search}`);
+    });
 
     const page = document.documentElement.dataset.page || "";
     const titleKey = document.documentElement.dataset.titleKey;

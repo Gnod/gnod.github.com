@@ -26,8 +26,9 @@
     <nav aria-label="Primary navigation">
       <a href="#game">Gameplay</a>
       <a href="#realm">Realm</a>
-      <a href="#chinese" lang="zh-CN">中文</a>
-      <a href="#japanese" lang="ja">日本語</a>
+      <a href="?lang=en#main" data-locale="en" lang="en">EN</a>
+      <a href="?lang=zh#chinese" data-locale="zh" lang="zh-CN">中文</a>
+      <a href="?lang=ja#japanese" data-locale="ja" lang="ja">日本語</a>
       <a href="/four-crowns/support/">Support</a>
     </nav>
   </header>
@@ -47,8 +48,8 @@
     </section>
 
     <figure class="hero-shot wrap">
-      <img src="/four-crowns/assets/battle.jpg" width="1920" height="1080" alt="A Four Crowns battle with four kingdom pillars, a crisis, advisors, and a poker hand">
-      <figcaption>A hand decides more than a score—it decides which pillar survives the next crisis.</figcaption>
+      <img src="/four-crowns/assets/screenshots/en/battle.jpg" data-shot="battle" width="1920" height="1080" alt="A Four Crowns battle with four kingdom pillars, a crisis, advisors, and a poker hand">
+      <figcaption data-shot-copy="battle">A hand decides more than a score—it decides which pillar survives the next crisis.</figcaption>
     </figure>
 
     <section id="game" class="chapter wrap">
@@ -66,8 +67,8 @@
     </section>
 
     <section class="full-bleed visual-break">
-      <img src="/four-crowns/assets/court.jpg" width="1920" height="1080" alt="Three advisors in the royal court market">
-      <div class="visual-caption wrap"><span>THE COURT</span><strong>24 advisors. 13 edicts.<br>Every build reshapes your rule.</strong></div>
+      <img src="/four-crowns/assets/screenshots/en/court.jpg" data-shot="court" width="1920" height="1080" alt="Three advisors in the royal court market">
+      <div class="visual-caption wrap" data-shot-copy="court"><span>THE COURT</span><strong>24 advisors. 13 edicts.<br>Every build reshapes your rule.</strong></div>
     </section>
 
     <section id="realm" class="chapter wrap split">
@@ -82,7 +83,7 @@
           <div><dt>∞</dt><dd>Endless</dd></div>
         </dl>
       </div>
-      <figure class="map-frame"><img src="/four-crowns/assets/map.jpg" width="1920" height="1080" alt="The campaign map across the four realms of Four Crowns"><figcaption>From the Verdant Fields to the Iron March.</figcaption></figure>
+      <figure class="map-frame"><img src="/four-crowns/assets/screenshots/en/map.jpg" data-shot="map" width="1920" height="1080" alt="The campaign map across the four realms of Four Crowns"><figcaption data-shot-copy="map">From the Verdant Fields to the Iron March.</figcaption></figure>
     </section>
 
     <section class="quiet">
@@ -116,5 +117,6 @@
       <a href="/four-crowns/support/">Support</a>
     </nav>
   </footer>
+  <script src="/four-crowns/locale.js?v=20260901-localized-shots" defer></script>
 </body>
 </html>
