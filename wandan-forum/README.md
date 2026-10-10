@@ -20,7 +20,7 @@ Run `node tools/check-wandan-forum.mjs` from the website repository root before 
 
 Verified source: `/Users/shangyongdong/Vibe/wandan-forum-adventure` on 2026-10-10. Official names come from `project.godot`. Product details come from `scripts/data/world_map.gd`, `scripts/autoload/game.gd`, localization catalogs, and the current game design. The game stores saves and death logs locally. Font credit comes from `assets/fonts/fusion-pixel/OFL.txt`; the website itself uses system fonts.
 
-- `assets/icon.png` is an unchanged copy of the game's complete 128×128 root `icon.png`; the cropped 1024×1024 asset is intentionally not used.
+- `assets/icon.png` is an unchanged copy of the game's 128×128 root `icon.png`, used as a smaller web resource. The game's 1024×1024 icon has the same pixel composition at 8× nearest-neighbor scale.
 - `assets/{zh,en,ja}-01.png` is an unchanged copy of the corresponding `release/appstore/screenshots/{zh-Hans,en-US,ja}/iphone-69/01-forum.png`.
 - `assets/{zh,en,ja}-02.png` comes from `02-danmaku.png` in the same folders.
 - `assets/{zh,en,ja}-03.png` comes from `03-clouds.png` in the same folders.
