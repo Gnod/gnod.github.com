@@ -37,118 +37,31 @@
         }
       ]
     },
-    "/media/duo-open.png": {
-      "width": 2853,
-      "height": 2007,
-      "sourceBytes": 1540984,
-      "sourceSHA256": "62a26cb2727bdaad001a39403d4a8ab21b3248deb88e739fac19f3d637f84910",
-      "variants": [
-        {
-          "src": "/media/duo-open-640.webp",
-          "width": 640,
-          "height": 450,
-          "bytes": 13996,
-          "encoding": "quality-95"
-        },
-        {
-          "src": "/media/duo-open-960.webp",
-          "width": 960,
-          "height": 675,
-          "bytes": 24452,
-          "encoding": "quality-95"
-        },
-        {
-          "src": "/media/duo-open-1600.webp",
-          "width": 1600,
-          "height": 1126,
-          "bytes": 49914,
-          "encoding": "quality-95"
-        }
-      ]
-    },
-    "/media/duo-half.png": {
-      "width": 2853,
-      "height": 2007,
-      "sourceBytes": 2978166,
-      "sourceSHA256": "c010e0cf9e1cb4c51466bedbd225b3f6bd74463f57bd5e136ce7fabed72922e0",
-      "variants": [
-        {
-          "src": "/media/duo-half-640.webp",
-          "width": 640,
-          "height": 450,
-          "bytes": 15996,
-          "encoding": "quality-95"
-        },
-        {
-          "src": "/media/duo-half-960.webp",
-          "width": 960,
-          "height": 675,
-          "bytes": 33120,
-          "encoding": "quality-95"
-        },
-        {
-          "src": "/media/duo-half-1600.webp",
-          "width": 1600,
-          "height": 1126,
-          "bytes": 93824,
-          "encoding": "quality-95"
-        }
-      ]
-    },
-    "/media/video-open.png": {
-      "width": 2853,
-      "height": 2007,
-      "sourceBytes": 943006,
-      "sourceSHA256": "ea65568dfbc7a60ad299c212b685e25338cee492c4095af60bd8942f635ef70c",
-      "variants": [
-        {
-          "src": "/media/video-open-640.webp",
-          "width": 640,
-          "height": 450,
-          "bytes": 16348,
-          "encoding": "quality-95"
-        },
-        {
-          "src": "/media/video-open-960.webp",
-          "width": 960,
-          "height": 675,
-          "bytes": 28080,
-          "encoding": "quality-95"
-        },
-        {
-          "src": "/media/video-open-1600.webp",
-          "width": 1600,
-          "height": 1126,
-          "bytes": 55292,
-          "encoding": "quality-95"
-        }
-      ]
-    },
     "/media/hero.png": {
       "width": 1320,
       "height": 2868,
-      "sourceBytes": 2443047,
-      "sourceSHA256": "1bca29a9f9e40b61ca18852271f6272c75f770c7dd9dbf8c9cbb9911fca98f24",
+      "sourceBytes": 2169438,
+      "sourceSHA256": "22e64b5dec45a0760bea30b044542114e3b6e374a454da2b6ce93144a5d23f46",
       "variants": [
         {
           "src": "/media/hero-640.webp",
           "width": 640,
           "height": 1391,
-          "bytes": 163736,
+          "bytes": 154668,
           "encoding": "quality-95"
         },
         {
           "src": "/media/hero-960.webp",
           "width": 960,
           "height": 2086,
-          "bytes": 310738,
+          "bytes": 276886,
           "encoding": "quality-95"
         },
         {
           "src": "/media/hero-1320.webp",
           "width": 1320,
           "height": 2868,
-          "bytes": 511994,
+          "bytes": 428074,
           "encoding": "quality-95"
         }
       ]
@@ -156,28 +69,202 @@
     "/media/hero-en.png": {
       "width": 1320,
       "height": 2868,
-      "sourceBytes": 2433660,
-      "sourceSHA256": "acd0e2e8a42ba8b625d44339d5bc0dbfe60cbd60c404d56c0454ad2768e1c534",
+      "sourceBytes": 2322808,
+      "sourceSHA256": "b5acabde77e37c969241ec40e10443c28cf66363426c890eec7105af088b380f",
       "variants": [
         {
           "src": "/media/hero-en-640.webp",
           "width": 640,
           "height": 1391,
-          "bytes": 164378,
+          "bytes": 168190,
           "encoding": "quality-95"
         },
         {
           "src": "/media/hero-en-960.webp",
           "width": 960,
           "height": 2086,
-          "bytes": 311180,
+          "bytes": 301458,
           "encoding": "quality-95"
         },
         {
           "src": "/media/hero-en-1320.webp",
           "width": 1320,
           "height": 2868,
-          "bytes": 512570,
+          "bytes": 475622,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/duo-adjustments.png": {
+      "width": 2853,
+      "height": 2007,
+      "sourceBytes": 2212101,
+      "sourceSHA256": "b964e85bb4c6975cdbc55421e21b85913323b9ac06aa7b2fa0596f5f89296d9c",
+      "variants": [
+        {
+          "src": "/media/duo-adjustments-640.webp",
+          "width": 640,
+          "height": 450,
+          "bytes": 43738,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-adjustments-960.webp",
+          "width": 960,
+          "height": 675,
+          "bytes": 87960,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-adjustments-1600.webp",
+          "width": 1600,
+          "height": 1126,
+          "bytes": 203822,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/duo-adjustments-en.png": {
+      "width": 2853,
+      "height": 2007,
+      "sourceBytes": 2214102,
+      "sourceSHA256": "1f6ea5dd1ab0527e038ae7f10f517326455d9955831bd7140659e0a18ea09285",
+      "variants": [
+        {
+          "src": "/media/duo-adjustments-en-640.webp",
+          "width": 640,
+          "height": 450,
+          "bytes": 45676,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-adjustments-en-960.webp",
+          "width": 960,
+          "height": 675,
+          "bytes": 90680,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-adjustments-en-1600.webp",
+          "width": 1600,
+          "height": 1126,
+          "bytes": 207774,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/duo-hsl.png": {
+      "width": 2853,
+      "height": 2007,
+      "sourceBytes": 2221319,
+      "sourceSHA256": "d6f692a80934c0d8fb093d61cea0a7a8a7ce4838c92c2c9b0c86896a8cad02d5",
+      "variants": [
+        {
+          "src": "/media/duo-hsl-640.webp",
+          "width": 640,
+          "height": 450,
+          "bytes": 45050,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-hsl-960.webp",
+          "width": 960,
+          "height": 675,
+          "bytes": 90042,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-hsl-1600.webp",
+          "width": 1600,
+          "height": 1126,
+          "bytes": 207662,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/duo-hsl-en.png": {
+      "width": 2853,
+      "height": 2007,
+      "sourceBytes": 2227854,
+      "sourceSHA256": "a93ad5a649636f5789503e301109f1503f756328d454511c8220fdb32028a7b8",
+      "variants": [
+        {
+          "src": "/media/duo-hsl-en-640.webp",
+          "width": 640,
+          "height": 450,
+          "bytes": 47076,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-hsl-en-960.webp",
+          "width": 960,
+          "height": 675,
+          "bytes": 95290,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-hsl-en-1600.webp",
+          "width": 1600,
+          "height": 1126,
+          "bytes": 212696,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/duo-recipes.png": {
+      "width": 2853,
+      "height": 2007,
+      "sourceBytes": 2212134,
+      "sourceSHA256": "b6f394da280c76139b1a103cfb9aaffe95a5c124337bf46701b1224b8bd50a8a",
+      "variants": [
+        {
+          "src": "/media/duo-recipes-640.webp",
+          "width": 640,
+          "height": 450,
+          "bytes": 44172,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-recipes-960.webp",
+          "width": 960,
+          "height": 675,
+          "bytes": 89072,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-recipes-1600.webp",
+          "width": 1600,
+          "height": 1126,
+          "bytes": 206092,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/duo-recipes-en.png": {
+      "width": 2853,
+      "height": 2007,
+      "sourceBytes": 2210382,
+      "sourceSHA256": "e31fce33cf957588ff9a1d9ec1a4de10ccaf6e49f647e0a56114554b350a3991",
+      "variants": [
+        {
+          "src": "/media/duo-recipes-en-640.webp",
+          "width": 640,
+          "height": 450,
+          "bytes": 45426,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-recipes-en-960.webp",
+          "width": 960,
+          "height": 675,
+          "bytes": 90890,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-recipes-en-1600.webp",
+          "width": 1600,
+          "height": 1126,
+          "bytes": 208646,
           "encoding": "quality-95"
         }
       ]
