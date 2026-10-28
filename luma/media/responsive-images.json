@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "images": {
+    "/media/app-icon.png": {
+      "width": 1024,
+      "height": 1024,
+      "sourceBytes": 961780,
+      "sourceSHA256": "1199cbc670e9a264cb9bdf1f8df511df2ab423736d48bcffbfb0824b5918250f",
+      "variants": [
+        {
+          "src": "/media/app-icon-128.webp",
+          "width": 128,
+          "height": 128,
+          "bytes": 12982,
+          "encoding": "lossless"
+        },
+        {
+          "src": "/media/app-icon-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 302964,
+          "encoding": "lossless"
+        },
+        {
+          "src": "/media/app-icon-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 652076,
+          "encoding": "lossless"
+        },
+        {
+          "src": "/media/app-icon-1024.webp",
+          "width": 1024,
+          "height": 1024,
+          "bytes": 717864,
+          "encoding": "lossless"
+        }
+      ]
+    },
+    "/media/duo-open.png": {
+      "width": 2853,
+      "height": 2007,
+      "sourceBytes": 1540984,
+      "sourceSHA256": "62a26cb2727bdaad001a39403d4a8ab21b3248deb88e739fac19f3d637f84910",
+      "variants": [
+        {
+          "src": "/media/duo-open-640.webp",
+          "width": 640,
+          "height": 450,
+          "bytes": 13996,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-open-960.webp",
+          "width": 960,
+          "height": 675,
+          "bytes": 24452,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-open-1600.webp",
+          "width": 1600,
+          "height": 1126,
+          "bytes": 49914,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/duo-half.png": {
+      "width": 2853,
+      "height": 2007,
+      "sourceBytes": 2978166,
+      "sourceSHA256": "c010e0cf9e1cb4c51466bedbd225b3f6bd74463f57bd5e136ce7fabed72922e0",
+      "variants": [
+        {
+          "src": "/media/duo-half-640.webp",
+          "width": 640,
+          "height": 450,
+          "bytes": 15996,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-half-960.webp",
+          "width": 960,
+          "height": 675,
+          "bytes": 33120,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/duo-half-1600.webp",
+          "width": 1600,
+          "height": 1126,
+          "bytes": 93824,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/video-open.png": {
+      "width": 2853,
+      "height": 2007,
+      "sourceBytes": 943006,
+      "sourceSHA256": "ea65568dfbc7a60ad299c212b685e25338cee492c4095af60bd8942f635ef70c",
+      "variants": [
+        {
+          "src": "/media/video-open-640.webp",
+          "width": 640,
+          "height": 450,
+          "bytes": 16348,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/video-open-960.webp",
+          "width": 960,
+          "height": 675,
+          "bytes": 28080,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/video-open-1600.webp",
+          "width": 1600,
+          "height": 1126,
+          "bytes": 55292,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/hero.png": {
+      "width": 1320,
+      "height": 2868,
+      "sourceBytes": 2443047,
+      "sourceSHA256": "1bca29a9f9e40b61ca18852271f6272c75f770c7dd9dbf8c9cbb9911fca98f24",
+      "variants": [
+        {
+          "src": "/media/hero-640.webp",
+          "width": 640,
+          "height": 1391,
+          "bytes": 163736,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/hero-960.webp",
+          "width": 960,
+          "height": 2086,
+          "bytes": 310738,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/hero-1320.webp",
+          "width": 1320,
+          "height": 2868,
+          "bytes": 511994,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/hero-en.png": {
+      "width": 1320,
+      "height": 2868,
+      "sourceBytes": 2433660,
+      "sourceSHA256": "acd0e2e8a42ba8b625d44339d5bc0dbfe60cbd60c404d56c0454ad2768e1c534",
+      "variants": [
+        {
+          "src": "/media/hero-en-640.webp",
+          "width": 640,
+          "height": 1391,
+          "bytes": 164378,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/hero-en-960.webp",
+          "width": 960,
+          "height": 2086,
+          "bytes": 311180,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/hero-en-1320.webp",
+          "width": 1320,
+          "height": 2868,
+          "bytes": 512570,
+          "encoding": "quality-95"
+        }
+      ]
+    },
+    "/media/midnight-lake-hero-v3.png": {
+      "width": 2048,
+      "height": 1800,
+      "sourceBytes": 4160033,
+      "sourceSHA256": "9fcad02ee856469d9aed1ecccd7ca138c70ee4f14743636ab7c1d5c3e600706e",
+      "variants": [
+        {
+          "src": "/media/midnight-lake-hero-v3-640.webp",
+          "width": 640,
+          "height": 562,
+          "bytes": 15010,
+          "encoding": "quality-86"
+        },
+        {
+          "src": "/media/midnight-lake-hero-v3-960.webp",
+          "width": 960,
+          "height": 844,
+          "bytes": 30330,
+          "encoding": "quality-86"
+        },
+        {
+          "src": "/media/midnight-lake-hero-v3-1600.webp",
+          "width": 1600,
+          "height": 1406,
+          "bytes": 73510,
+          "encoding": "quality-86"
+        }
+      ]
+    },
+    "/media/sample.jpg": {
+      "width": 1536,
+      "height": 1024,
+      "sourceBytes": 1033279,
+      "sourceSHA256": "0f515f8b205c65aa22080ef72a8e1a0613c05e8dae5cb9ae60d1b4b08331807e",
+      "variants": [
+        {
+          "src": "/media/sample-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 139090,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/sample-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 278272,
+          "encoding": "quality-95"
+        },
+        {
+          "src": "/media/sample-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 582948,
+          "encoding": "quality-95"
+        }
+      ]
+    }
+  },
+  "extras": {
+    "favicon": {
+      "src": "/media/favicon-32.png",
+      "width": 32,
+      "height": 32,
+      "bytes": 2192
+    },
+    "logo": "/media/app-icon-128.webp"
+  }
+}
